@@ -2,6 +2,7 @@
 - name: Install Apache web server
   hosts: localhost
   become: true
+  # play made some changes in git bash
 
   tasks:
     - name: Install Apache
