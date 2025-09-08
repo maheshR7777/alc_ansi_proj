@@ -2,7 +2,7 @@
 - name: Configure firewall with firewalld
   hosts: all
   become: true
-
+# this play belong to firewall 
   tasks:
     - name: Ensure firewalld is installed
       yum:
