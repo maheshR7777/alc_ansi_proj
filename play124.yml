@@ -1,0 +1,7 @@
+iname: Create a new user and set up home directory
+hosts: all
+become: yes
+vars:
+new_user: johndoe
+user_shell: /bin/bash
+tasks:
