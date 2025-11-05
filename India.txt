@@ -81,3 +81,13 @@ India/
         └── Schools/
             ├── DelhiPublicSchool.txt
             └── AnandNiketan.txt
+	    andhra pradesh 
+	    chittor
+	    kadapa
+	    kurnool
+	    anathapuram 
+	    annamaya
+	    tirupathi
+	    madanapalli
+	    rayachoti
+
