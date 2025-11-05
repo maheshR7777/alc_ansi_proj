@@ -4,3 +4,4 @@
   become: yes
   tasks: 
     - name: shutdown the server
+hello everyone
