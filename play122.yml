@@ -3,5 +3,7 @@
   hosts: all
   become: yes
   tasks:
-    - name: shutdown the server
+    - name: shutdown the serveriiii
+    ,t,tm
+
 
