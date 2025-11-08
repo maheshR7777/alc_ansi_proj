@@ -1,0 +1,95 @@
+India/
+├── README.txt
+├── North/
+│   ├── Delhi/
+│   │   ├── Universities/
+│   │   │   ├── DU.txt
+│   │   │   ├── JNU.txt
+│   │   │   └── IIT_Delhi.txt
+│   │   └── Schools/
+│   │       ├── DPS.txt
+│   │       └── ModernSchool.txt
+│   ├── Uttar_Pradesh/
+│   │   ├── Universities/
+│   │   │   ├── BHU.txt
+│   │   │   ├── AMU.txt
+│   │   │   └── IIT_Kanpur.txt
+│   │   └── Schools/
+│   │       ├── CMS.txt
+│   │       └── StFrancis.txt
+│   └── Punjab/
+│       ├── Universities/
+│       │   ├── PU.txt
+│       │   └── LPU.txt
+│       └── Schools/
+│           ├── SacredHeart.txt
+│           └── RyanInternational.txt
+├── South/
+│   ├── TamilNadu/
+│   │   ├── Universities/
+│   │   │   ├── AnnaUniversity.txt
+│   │   │   ├── IIT_Madras.txt
+│   │   │   └── VIT.txt
+│   │   └── Schools/
+│   │       ├── DAV.txt
+│   │       └── SBOA.txt
+│   ├── Karnataka/
+│   │   ├── Universities/
+│   │   │   ├── BangaloreUniversity.txt
+│   │   │   ├── IISc.txt
+│   │   │   └── NIT_Suratkal.txt
+│   │   └── Schools/
+│   │       ├── NPS.txt
+│   │       └── BishopCotton.txt
+│   └── Kerala/
+│       ├── Universities/
+│       │   ├── CUSAT.txt
+│       │   └── KeralaUniversity.txt
+│       └── Schools/
+│           ├── ChoiceSchool.txt
+│           └── Rajagiri.txt
+├── East/
+│   ├── WestBengal/
+│   │   ├── Universities/
+│   │   │   ├── CalcuttaUniversity.txt
+│   │   │   ├── IIT_Kharagpur.txt
+│   │   │   └── JadavpurUniversity.txt
+│   │   └── Schools/
+│   │       ├── DonBosco.txt
+│   │       └── SouthPoint.txt
+│   └── Odisha/
+│       ├── Universities/
+│       │   ├── KIIT.txt
+│       │   └── UtkalUniversity.txt
+│       └── Schools/
+│           ├── DAV_Bhubaneswar.txt
+│           └── ODM.txt
+└── West/
+    ├── Maharashtra/
+    │   ├── Universities/
+    │   │   ├── MumbaiUniversity.txt
+    │   │   ├── IIT_Bombay.txt
+    │   │   └── PuneUniversity.txt
+    │   └── Schools/
+    │       ├── BombayScottish.txt
+    │       └── CathedralJohnConnon.txt
+    └── Gujarat/
+        ├── Universities/
+        │   ├── GujaratUniversity.txt
+        │   ├── NirmaUniversity.txt
+        │   └── IIT_Gandhinagar.txt
+        └── Schools/
+            ├── DelhiPublicSchool.txt
+            └── AnandNiketan.txt
+	    andhra pradesh 
+	    chittor
+	    kadapa
+	    kurnool
+	    anathapuram 
+	    annamaya
+	    tirupathi
+	    madanapalli
+	    rayachoti
+        ,mjdjwdndncnd
+        hii
+

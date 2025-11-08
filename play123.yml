@@ -1,0 +1,7 @@
+---
+- name: Display the uptime
+  hosts: locakhost
+  gather_facts: no
+  tasks: 
+    - name: uptime
+# this play about uptime
