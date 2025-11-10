@@ -4,5 +4,6 @@
   gather_facts: no
   tasks: 
     - name: uptime
-    this paly is to edit
+    newly modified
+    modified 
 # this play about uptime
