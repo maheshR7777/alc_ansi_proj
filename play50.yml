@@ -1,0 +1,12 @@
+---
+- name: Create a group on Linux
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Create a group
+      group:
+        name: developers
+        gid: 1050     # optional
+        state: present
+
