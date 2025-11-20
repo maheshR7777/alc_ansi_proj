@@ -1,0 +1,24 @@
+---
+- name: Patch Linux servers
+  hosts: target_servers
+  become: yes
+  gather_facts: yes
+
+  tasks:
+
+    - name: Update package metadata
+      package:
+        update_cache: yes
+
+    - name: Apply latest updates on RedHat family
+      yum:
+        name: '*'
+        state: latest
+      when: ansible_os_family == "amazon linux"
+
+    - name: Verify kernel version after patching
+      command: uname -r
+      register: kernel
+
+    - debug:
+        msg: "Server {{ inventory_hostname }} patched successfully with kernel {{ kernel.stdout }}
