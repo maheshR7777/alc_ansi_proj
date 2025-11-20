@@ -1,5 +1,5 @@
 - name: Execute roles on webservers
-  hosts: webservers
+  hosts: web
   become: yes
   vars_files:
     - /home/jenkins/ansible/vault.yml
