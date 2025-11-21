@@ -1,4 +1,4 @@
-- name: Execute roles on webservers
+- name: Execute roles on web
   hosts: web
   become: yes
   vars_files:
