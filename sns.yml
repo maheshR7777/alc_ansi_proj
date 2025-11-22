@@ -1,0 +1,39 @@
+- name: Install package and notify SNS
+  hosts: web
+  become: yes
+  gather_facts: yes
+  vars:
+    sns_topic_arn: "arn:aws:iam::784154679520:jenkins-ansible-alerts"
+
+  tasks:
+    - name: Ping host
+      ping:
+      register: ping_result
+
+    - name: Install httpd
+      yum:
+        name: httpd
+        state: present
+      register: pkg_install
+
+    - name: Ensure httpd running
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+      register: svc_status	
+
+    - name: Build SNS message
+      set_fact:
+        msg: |
+          Host: {{ inventory_hostname }}
+          Reachable: {{ ping_result.ping | default('unreachable') }}
+          Package install changed: {{ pkg_install.changed }}
+          Service state: {{ svc_status.state }}
+
+    - name: Send SNS notification
+      community.aws.sns:
+        topic: "{{ sns_topic_arn }}"
+        msg: "{{ msg }}"
+        region: ap-south-1
+        subject: "Jenkins Ansible Notification"
